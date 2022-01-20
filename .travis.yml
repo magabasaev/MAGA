@@ -1,6 +1,7 @@
-os: linux
-rvm: 2.6.3
-jobs:
-  include:
-    - stage: "sleep 109"
-      script: sleep 10
+language: ruby
+rvm: 2.5
+script:
+- echo 1
+cache:
+  directories:
+    - /home/travis/.rvm
