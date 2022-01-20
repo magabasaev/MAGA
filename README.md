@@ -1,1 +1,2 @@
 # MAGA
+STAN CACHE
